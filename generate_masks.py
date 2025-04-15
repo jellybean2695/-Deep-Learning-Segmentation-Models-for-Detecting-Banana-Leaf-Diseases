@@ -3,8 +3,8 @@ import cv2
 import numpy as np
 
 # Updated Paths
-IMAGE_DIR = r"C:\Users\Admin\Desktop\data set\OriginalSet"  # Path to original images
-MASK_DIR = r"C:\Users\Admin\Desktop\mask"  # Path to store generated masks
+IMAGE_DIR = r"C:"  # Path to original images
+MASK_DIR = r"C:"  # Path to store generated masks
 
 # Ensure the masks folder exists
 os.makedirs(MASK_DIR, exist_ok=True)
